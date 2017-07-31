@@ -45,8 +45,8 @@ public class MainActivityTest {
         activity.editText.onEditorAction(EditorInfo.IME_ACTION_DONE);
 
         // Assert
-        String actuaString = activity.editText.getText().toString();
-        Assert.assertEquals(givenString, actuaString);
+        String actualString = activity.editText.getText().toString();
+        Assert.assertEquals(givenString, "test1234");
     }
 
     @Test
